@@ -12,7 +12,7 @@ import (
 	"github.com/Shopify/sarama"
 )
 
-var Brokers = []string{"kafka:9092"}
+var Brokers = []string{"localhost:9092", "kafka:9092"}
 
 func main() {
 	if len(os.Args) == 1 {
